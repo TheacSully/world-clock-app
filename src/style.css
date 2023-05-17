@@ -1,3 +1,78 @@
 body {
-  background: red;
+  background: linear-gradient(
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 10%,
+    rgb(190, 228, 210) 30%,
+    rgb(192, 230, 229) 50%,
+    rgb(195, 226, 212) 56%,
+    rgb(163, 189, 193) 80%,
+    rgb(237, 161, 193) 92%
+  );
+}
+
+select {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Quicksand", sand-serif;
+  font-size: 44px;
+  text-decoration: underline;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.53) 93.8%;
+  border-radius: 10px;
+  padding: 35px;
+  box-shadow: 8px 15px 5px rgba(0, 0, 0, 0.3);
+}
+
+.city {
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  padding: 35px;
+  border-bottom: 2px dashed rgba(32, 34, 45, 0.5);
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 1;
+  font-family: "Zeyada", cursive;
+  font-size: 24px;
+}
+
+.time {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 9, 61);
+  font-family: "Zeyada", cursive;
+  font-size: 20px;
 }
