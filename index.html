@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Quicksand:wght@300;400;500&family=Zeyada&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock</title>
   </head>
   <body>
@@ -18,19 +20,16 @@
         <option value="">Select a city</option>
         <option value="london">London 🇬🇧</option>
         <option value="new york">New York 🇺🇸</option>
-        <option value="toronto">Toronto 🇨🇦</option>
+        <option value="toronto">Seoul 🇰🇷 </option>
       </select>
-      <div class="city">
+      <div class="city" id="manchester">
         <div> 
          <h2>Manchester 🇬🇧</h2>
-          <div class="date"> May 17th 2023 </div>
+          <div class="date"></div>
         </div>
-            <div class="time">
-            5:50:32
-            <small>AM</small>
-            </div>
+            <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="tokyo">
         <div> 
          <h2>Tokyo 🇯🇵 </h2>
           <div class="date">May 17th 2023 </div>
@@ -40,9 +39,9 @@
             <small>AM</small>
             </div>
       </div>
-          <div class="city">
+          <div class="city" id="toronto">
         <div> 
-         <h2>Seoul 🇰🇷 </h2>
+         <h2>Toronto 🇨🇦</h2>
           <div class="date">May 17th 2023 </div>
         </div>
             <div class="time">
