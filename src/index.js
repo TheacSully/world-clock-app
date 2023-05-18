@@ -36,7 +36,7 @@ function updateTime() {
       "HH:mm:ss[<small>]A[</small>]"
     );
   }
-  //Stardew VAlley
+  //Stardew Valley
   let stardewElement = document.querySelector("#stardew-valley");
   if (stardewElement) {
     let stardewDateElement = stardewElement.querySelector(".date");
