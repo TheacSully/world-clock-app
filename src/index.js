@@ -36,6 +36,18 @@ function updateTime() {
       "HH:mm:ss[<small>]A[</small>]"
     );
   }
+  //Stardew VAlley
+  let stardewElement = document.querySelector("#stardew-valley");
+  if (stardewElement) {
+    let stardewDateElement = stardewElement.querySelector(".date");
+    let stardewTimeElement = stardewElement.querySelector(".time");
+    let stardewTime = moment().tz("Pacific/Norfolk");
+
+    stardewDateElement.innerHTML = stardewTime.format("MMMM Do YYYY");
+    stardewTimeElement.innerHTML = stardewTime.format(
+      "HH:mm:ss[<small>]A[</small>]"
+    );
+  }
 }
 
 function updateCity(event) {
